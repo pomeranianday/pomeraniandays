@@ -1,13 +1,11 @@
 import './App.css';
-import { MainRouter } from './router';
+import { MainRouter } from './components/router';
 import Header from './components/base/header'
 
 function App() {
   return (
     <div className="App">
-      <header>
-       <Header/>
-      </header>
+      <Header/>
       <MainRouter/>
     </div>
   );
